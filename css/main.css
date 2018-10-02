@@ -1,0 +1,160 @@
+body{
+    background: black;
+    margin:0;
+    font-size: 0.81em+1vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    height: 50%;
+}
+ul>li>a{
+    padding: 1em 2em 0;
+    text-decoration: none;
+    color: white;
+}
+ul>li>a:hover{
+    border-bottom: 1px solid;
+}
+li>img{
+    border: 5px solid black;
+    width: 2em;
+}
+header{
+    position: relative;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/concierto.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+header>h1{
+    font-family: 'Monoton', cursive;
+    font-size: 5em;
+    padding: 1em 0 0;
+    margin: 0;
+}
+header>p{
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+
+header>a>i{
+    color: white;
+    width:2em;
+    padding: 1em 0;
+}
+
+main{
+    display: flex;
+    background: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+main div{
+    width: 31%;
+    margin: 0.25em;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #dbdada;
+}
+main div img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+main div h2{
+    color: #612e1d;
+    margin:0;
+}
+main div p{
+    padding: 1em;
+    color: black;
+    font-size: 0.75em;
+    margin:0;
+}
+
+input[type="button"]{
+    background-color: orange;
+    border-radius: 4px;
+    color:white;
+    border:0;
+    padding: 0.5em 25%; 
+    margin: 0.5em 0;
+}
+form{
+    background-image: url(../img/contacus.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    padding: 0;
+    margin: 0 auto;
+}
+form>div{
+    width: 45%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    border-radius: 5px;
+
+}
+button{
+    background-color: orange;
+    border-radius: 4px;
+    color:white;
+    border:0;
+    width: 90%;
+    padding: 0.5em 25%; 
+}
+input[type="text"]{
+    width: 90%;
+    border-radius: 5px;
+}
+label{
+    margin:0.25;
+    font-size: 0.75em;
+}
+textarea{
+    margin: 0px;
+    height: 10em;
+    width: 90%;
+    border-radius: 10px;
+}
+.contact{
+    border-radius: 5px;
+    background: rgba(109, 104, 104, 0.3);
+}
+.contact>h3{
+    margin: 0.75em;
+    font-size: 1em;
+}
+
+.contact>p{
+    margin: 1.25em;
+    font-size: 0.75em;
+}
+
+footer{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+footer
